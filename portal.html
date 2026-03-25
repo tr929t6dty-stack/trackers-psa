@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal Colaboratori — Popescu și Asociații</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<style>
+:root{
+  --navy:#0D2240;--blue:#2E6DA4;--gold:#C8A951;--gold-light:#F0DFA0;
+  --cream:#FAF8F4;--white:#fff;
+  --g100:#F5F7FA;--g200:#E8ECF0;--g400:#9AAAB8;--g600:#5A6B7A;--g800:#2C3E50;
+  --green:#276221;--green-bg:#D4EDDA;--yellow:#7D5C00;--yellow-bg:#FFF3CD;
+  --red:#C0392B;--red-bg:#FFE0E0;
+  --sh:0 4px 24px rgba(27,58,107,.10);--shl:0 12px 40px rgba(27,58,107,.18);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Times New Roman',Times,serif;background:var(-cream);color:var(-g800);min-height:100vh;}
+
+/* HEADER */
+header{background:var(--navy);padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:60px;box-shadow:0 16px rgba(0,0,0,.2);}
+.logo;display:flex;align-items:center;gap:10px;}
+.logo-text{color:#fff;}
+.logo-title{font-family:'Times New Roman',Times,serif;font-size:16px;font-weight:700;color:#fff;}
+.logo-sub{color:var(--gold-light);font-size:14px;letter-spacing:1.5px;text-transform:uppercase;margin-top:1px;}
+.header-badge{background:rgba(200,169,81,.2);border:1px solid var(--gold);color:var(-gold-light);font-size:14px;padding:3px 10px;border-radius:20px;letter-spacing:.5px;}
+
+/* MAIN */
+.main{padding: 0 24px;min-height:calc(100vh - 120px);}
+.container{max-width:1200px;margin:0 auto;}
